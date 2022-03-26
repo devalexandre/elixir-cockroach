@@ -1,0 +1,32 @@
+# Elixir with Cockroachdb
+
+## Create a new user
+
+```elixir
+alias Cockroachdb.Users
+
+user = %Users{
+  username: "DevEvangelista",
+  password: "ajsadisdus0d87sd09s7d0",
+  email: "alexandre@indev.net.br",
+  name: "Alexandre E Souza"
+}
+```
+
+## Create a new User
+
+## Insert a user
+
+```elixir
+import Cockroachdb
+```
+
+```elixir
+insert(user)
+```
+
+## List all users
+
+```elixir
+find_all()
+```
